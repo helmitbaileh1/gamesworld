@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Games World</title>
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Games World</a>
+        <nav class="navigattion">
+            <a href="#services">services</a>
+            <a href="#projects">progects</a>
+            <a href="#contact">contact me</a>
+        </nav>
+        <div class="toggle">
+            <input type="checkbox" id="toggleBtn" />
+            <label for="toggleBtn">
+              <span class="toggle-icon">
+                <img src="./imeges/sun.svg" alt="sun icon" class="icon sun" />
+                <img src="./imeges/moon.svg" alt="moon icon" class="icon moon" />
+              </span>
+            </label>
+          </div>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>Hello there,<br><span>Video Games store</span></h2>
+            <h3>we sell video games online</h3>
+            <a href="#projects" class="main-button">see our Games</a>
+            <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+        <section class="cards" id="services">
+            <h2 class="title">who we are</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <div class="info">
+                        <h3 style="color: black;">Video Games Store</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="info">
+                        <h3 style="color: black;">developing</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="title">Our Games</h2>
+            <div class="content">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imeges/battlefild.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Battlefild 3</p>
+                        <strong class="project-title">
+                            <span></span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imeges/assc.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">assassin's creed unity</p>
+                        <strong class="project-title">
+                            <span></span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imeges/Battlefield-2042-1920x2618.webp" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">battlefild 2042</p>
+                        <strong class="project-title">
+                            <span></span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imeges/gta v.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">GTA V</p>
+                        <strong class="project-title">
+                            <span></span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imeges/MINICRFT-10-min.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">mincraft</p>
+                        <strong class="project-title">
+                            <span></span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imeges/rdr2.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">RDR2</p>
+                        <strong class="project-title">
+                            <span></span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards-contact" id="contact">
+            <h2 class="title">contact with us</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info">
+                        <h3>phone</h3>
+                        <p>0595100682</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>games.world.ps@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <p class="footer-title">copyrights at ©<span>Helmi Tbaileh</span> </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i clSass="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </footer>
+
+      
+          <script>
+            let toggleBtn = document.querySelector("#toggleBtn");
+      
+            let bodyEl = document.querySelector("body");
+      
+            let darkMode = false;
+      
+            toggleBtn.addEventListener('change', (event) => {
+              darkMode = event.target.checked;
+              if(darkMode) {
+                bodyEl.classList.add("dark");
+              } else {
+                bodyEl.classList.remove("dark");
+              }
+            })
+      
+          </script>
+</body>
+</html>
